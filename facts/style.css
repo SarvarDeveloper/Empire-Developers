@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+  text-decoration: none;
+}
+
+.container {  
+  width: 100%;
+  min-height: 100vh;
+  background: #08002b;
+}
+
+nav {
+  width: 100%;
+  min-height: 15vh;
+  background: #03000e50;
+  display: flex;
+  position: fixed;
+  z-index: 2;
+}
+
+
+.logo {
+  width: 25%;
+  min-height: 15vh;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
+
+.logo img {
+  width: 35%;
+  cursor: pointer;
+}
+
+
+.menu {
+  width: 70%;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+
+.menu a {
+  color: white;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 100;
+  font-size: 26px;
+  line-height: 18px;
+  transition-duration: 0.5s;
+}
+
+
+.menu a:hover {
+  scale: 1.05;
+}
+
+
+header {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 35px;
+}
+
+
+header > h1 {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 49px;
+  line-height: 60px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+
+header .box {
+  width: 70%;
+  min-height: 412px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: end;
+}
+
+
+.box:first-child {
+  margin-top: 300px;
+  background: url(./images/bgg.png) no-repeat;
+}
+
+
+.block > h1 {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 39px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: #0157ff;
+  padding-top: 45px;
+  padding-left: 30px;
+}
+
+
+.block > p {
+  font-family: "Proxima Nova";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 38px;
+  text-align: justify;
+  color: #000000;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+
+.block {
+  width: 45%;
+  min-height: 412px;
+  background: #ededed;
+  border-radius: 10px;
+}
+
+
+.box:nth-child(2) {
+  background: url(./images/bgg.png) no-repeat ;
+}
+
+
+nav a::before {
+  position: absolute;
+  content: "";
+  top: 105%;
+  left: 0;
+  height: 3px;
+  width: 0;
+  background-color: white;
+  transition: all 0.5s linear;
+}
+
+nav a:hover::before {
+  width: 100%;
+  margin-top: 4px;
+  background-color: linear to right , blue, aqua;
+}
