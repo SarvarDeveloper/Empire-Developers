@@ -1,0 +1,83 @@
+
+.container {
+    width: 100%;margin-left: auto;
+    margin-right: auto;
+}
+.left {
+    margin-left: auto;
+}
+.list {
+    display: flex;
+    flex-direction: column;
+}
+.item {
+    height: 230.240966796875px;
+    width: 490px;
+    left: 220px;
+    top: 514px;
+    border-radius: 11.807228088378906px;
+    background: #FFFFFF;    
+    margin-top: 5rem;
+    display: flex;
+    align-items: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+.left-wrapper {
+    margin-left: auto;
+    height: 183.01205444335938px;
+    width: 183.01205444335938px;
+    left: 237.7109375px;
+    top: 285.84336853027344px;
+    border-radius: 0px;
+    
+}
+.right-wrapper {
+    height: 230.240966796875px;
+    width: 289.277099609375px;
+    left: 420.722900390625px;
+    top: 264px;
+    border-radius: 11.807228088378906px;
+    background: #EDEDED;    
+}
+.right-wrapper_title {
+    left: 449.650634765625px;
+    top: 536.4337463378906px;
+    border-radius: nullpx;
+    font-family: Proxima Nova;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-align: center;
+    color: #08002A;        
+}
+.star-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+.items-wrappers {
+    display: flex;
+    align-items: center;
+}
+.texts {
+    font-family: Proxima Nova;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0em;
+    text-align: left;
+    height: 30px;
+    width: 195px;
+    left: 470.903564453125px;
+    top: 339.56626892089844px;
+    border-radius: nullpx;
+    color: #08002A;
+    margin-left: 1rem;        
+}
+.right {
+   display: flex;
+   flex-direction: column; 
+}
