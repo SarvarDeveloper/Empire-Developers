@@ -146,3 +146,112 @@ main {
 .main_right img {
     width: 60%;
 }
+.main {
+    width: 100%;
+    height: 120vh;
+    margin-top: -30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background: url(./img_1/shadov/shadov_3.png) no-repeat center;
+    background-size: cover;
+}
+
+.main_top {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 20px;
+}
+
+.main_bot {
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.box {
+    border-radius: 15px;
+    width: 265px;
+    height: 300px;
+    border: 1px solid red;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box:hover {
+    margin-top: -30px;
+}
+
+.box img {
+    width: 65%;
+}
+
+.Yonalish {
+    color: white;
+    padding-left: 190px;
+}
+
+.box_00 {
+    background: rgba(237, 237, 237, 1);
+    width: 100%;
+    height: 20vh;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.box h1 {
+    font-weight: 900;
+}
+
+.box button {
+    width: 200px;
+    height: 30px;
+    border-radius: 15px;
+    border: none;
+    background: rgba(1, 87, 255, 1);
+    color: white;
+}
+
+.box button:hover {
+    border: 1px solid rgba(1, 87, 255, 1);
+    color: rgba(1, 87, 255, 1);
+    background: white;
+}
+
+.Batafsil {
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.Batafsil button {
+    width: 250px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    background: rgba(1, 87, 255, 1);
+    box-shadow: 0px 5px 30px 0px rgba(1, 87, 255, 1);
+    color: white;
+}
+
+.Batafsil button:hover {
+    scale: 1.1;
+    box-shadow: 0px 5px 20px 0px rgba(1, 87, 255, 1);
+}
