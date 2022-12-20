@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
@@ -14,7 +15,7 @@
                 <img src="./images/svg/IMPERIA DEVELOPERS.svg" alt="">
             </div>
             <div class="menu">
-                <a href="../index.html">Asosiy</a>
+                <a href="./index.html">Asosiy</a>
                 <a href="../facts/index.html">Qiziqarli faktlar</a>
                 <a href="./index.html">IT yo'nalishlari</a>
             </div>
@@ -27,7 +28,7 @@
         <div class="container">
 
             <section>
-                <div class="left">
+                <div class="left"  data-aos="fade-right"> 
                     <ul class="list">
                         <li class="item">
                             <div class="left-wrapper">
@@ -136,7 +137,7 @@ Exterier (tashqi dizayn) va Modelling</p>
                         </li>
                     </ul>
                 </div>
-                <div class="right">
+                <div class="right" data-aos="fade-left">
                     <ul class="list">
                         <li class="item">
                             <div class="left-wrapper">
@@ -367,7 +368,9 @@ Corona Render</p>
 
         </div>
     </main>
-
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><script>
+    AOS.init();
+</script>
 
     
 </body>
